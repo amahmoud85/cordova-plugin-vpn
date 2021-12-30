@@ -1,0 +1,11 @@
+{
+    "name": "com.aquto.cordova.VPNManager",
+    "version": "0.0.1",
+    "description": "This is a plugin to test & validate VPN connection",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [vpn],
+    "author": "",
+    "license": "ISC"
+}
