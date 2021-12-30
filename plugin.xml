@@ -29,7 +29,7 @@
         </config-file>
 
         <config-file target="*-Info.plist" parent="AllowWiFi">
-            <string>True</string>
+            <string>$ALLOWWIFI</string>
         </config-file>
 
         <framework src="NetworkExtension.framework" />
@@ -64,7 +64,7 @@
                     <action android:name="android.net.VpnService" />
                 </intent-filter>
             </service>
-            <meta-data android:name="allowWiFi" android:value="True" />
+            <meta-data android:name="allowWiFi" android:value="$ALLOWWIFI" />
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/*">
